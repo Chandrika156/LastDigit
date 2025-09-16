@@ -10,4 +10,12 @@ public class LastDigitReturnTest {
 	public void testCase2() {
 		Assertions.assertEquals(6,LastDigitReturn.lastDigitReturn(-156));
 	}
+	@Test
+	public void testCase3() {
+		Assertions.assertEquals(3,LastDigitReturn.lastDigitReturn(-33));
+	}
+	@Test
+	public void testCase4() {
+		Assertions.assertEquals(2,LastDigitReturn.lastDigitReturn(2882));
+	}
 }
